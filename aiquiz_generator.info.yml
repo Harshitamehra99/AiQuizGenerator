@@ -1,0 +1,5 @@
+name: 'AiQuizGenerator'
+type: module
+description: 'To generate quiz based on AI.'
+package: Custom
+core_version_requirement: ^10
