@@ -1,5 +1,5 @@
 name: 'AiQuizGenerator'
 type: module
-description: 'To generate quiz based on AI.'
+description: 'Convert any text into an interactive quiz in seconds.'
 package: Custom
-core_version_requirement: ^10
+core_version_requirement: ^9 || ^10

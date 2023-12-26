@@ -1,0 +1,15 @@
+aiquiz_generator.form:
+  path: '/ai-quiz-maker'
+  defaults:
+    _title: 'Ai Quiz Maker'
+    _form: 'Drupal\aiquiz_generator\Form\QuizMaker'
+  requirements:
+    _access: 'TRUE'
+
+aiquiz_generator.generate_quiz:
+  path: '/quiz-generator'
+  defaults:
+    _title: 'My Quiz'
+    _controller: '\Drupal\aiquiz_generator\Controller\QuizController::generateQuiz'
+  requirements:
+    _access: 'TRUE'
